@@ -7,7 +7,7 @@ export function Router (){
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/save" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/list" element={<List />} />
       </Route>
     </Routes>
